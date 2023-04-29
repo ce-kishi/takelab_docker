@@ -7,8 +7,8 @@ IMG_VERSION=0.0.2
 # UIDで50000番台のポート番号に割り付け
 
 UID=$(id -u)
-HOST_PORT=$((UID * 10 + 40000)) #57360 # ホストのポート
-TFB_PORT=$((UID * 10 + 40001)) #57361 # ホストのtensorboard用ポート
+HOST_PORT=$((UID * 10 + 40000)) # ホストのポート
+TFB_PORT=$((UID * 10 + 40001)) # ホストのtensorboard用ポート
 
 # 竹村研A5000用のマウント
 
